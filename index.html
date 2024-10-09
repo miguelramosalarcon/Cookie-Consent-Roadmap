@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta targs SEO -->
+        <meta name="description" content="Cookie Consent - Roadmap Proyects"/>
+        <meta name="keywords" content="Roadmap, Miguel Ramos Alarcon, Frontend, MRA, developer"/>
+        <meta name="author" content="Miguel Alonso Ramos Alarcon" />
+        <meta name="copyright" content="Miguel Alonso Ramos Alarcon" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        
+        <!-- Fonts Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+         
+        <!-- CSS MATERIAL ICON- GOOGLE -->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Sweet Alert 2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <title>Cookie Consent</title>
+    </head>
+    <body>
+        
+        <div class="container hidden" id="cookie-consent">
+            <span class="material-symbols-outlined cookie">cookie</span>
+            <div class="image">
+                <span class="material-symbols-outlined cancel" id="close-btn">cancel</span>
+            </div>
+            <div class="text">
+                <p>We use cookies to improve your user experience</p>
+            </div>
+            <div class="button">
+                <button id="accept-btn" class="btn-accept">I like Cookies</button>
+            </div>
+        </div>
+
+        <div class="button__reset">
+            <button id="reset-consent" class="btn-accept">Reset Cookie Consent</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
+
